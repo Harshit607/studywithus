@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookVault - Free eBooks</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>📖 BookVault</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search books...">
+            <button>Search</button>
+        </div>
+        <nav>
+            <a href="#fiction">Fiction</a>
+            <a href="#scifi">Sci-Fi</a>
+            <a href="#history">History</a>
+            <a href="admin/index.html" class="admin-link">Admin</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="featured">
+            <h2>Featured Books</h2>
+            <div class="book-grid">
+                <!-- Book Cards (Dynamically loaded via JS) -->
+                <div class="book-card">
+                    <img src="images/book1.jpg" alt="Book Cover">
+                    <h3>Book Title</h3>
+                    <p>Author Name</p>
+                    <a href="books/book1.pdf" download class="download-btn">Download</a>
+                </div>
+                <!-- More books... -->
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
